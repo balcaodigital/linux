@@ -11,7 +11,7 @@ cd /tmp
 wget https://download.webmin.com/jcameron-key.asc
 apt-key add jcameron-key.asc
 
-4- Execute a instalação do WebMin
+4- Execute a instalação do Webmin
 apt-get install webmin
 
 Obs. Se houver a necessida de instalar as dependências antes:
