@@ -1,0 +1,15 @@
+1- Abra o arquivo “/usr/share/vim/vim80/defaults.vim”
+
+2- Procure no arquivo pelas seguintes linhas:
+
+if has('mouse')
+  set mouse=a
+endif
+
+3- Comente as 03 linhas utilizando aspas duplas:
+
+" if has('mouse')
+"  set mouse=a
+" endif
+
+4- salve o arquivo.
