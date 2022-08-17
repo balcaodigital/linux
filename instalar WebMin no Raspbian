@@ -1,0 +1,25 @@
+Instalar Webmin no Raspbian
+
+1- Incluir o repositório oficial do WebMin em: /etc/apt/sources.list
+https://download.webmin.com/download/repository sarge contrib
+
+2- Atualize a lista do repositorio
+apt update
+
+3- Adicionar a chave WebMin
+cd /tmp
+wget https://download.webmin.com/jcameron-key.asc
+apt-key add jcameron-key.asc
+
+4- Execute a instalação do WebMin
+apt-get install webmin
+
+Obs. Se houver a necessida de instalar as dependências antes:
+apt-get install webmin
+apt --fix-broken install
+apt-get install webmin
+
+apt install apt-show-versions libauthen-pam-perl libio-pty-perl libnet-ssleay-perl perl-openssl-defaults
+
+5- Acessando via brownser:
+localhost:10000
